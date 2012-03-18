@@ -12,7 +12,6 @@ if [[ -d $HOME/.oh-my-zsh ]]; then
 
   # Load zsh aliases
   source $ZSH/lib/aliases.zsh
-  source $ZSH/lib/directories.zsh
   source $ZSH/lib/grep.zsh
 fi
 

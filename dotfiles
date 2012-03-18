@@ -1,4 +1,4 @@
-export $DOTFILES=$HOME/.dotfiles
+export DOTFILES=$HOME/.dotfiles
 
 # Paths
 source $DOTFILES/lib/paths
