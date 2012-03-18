@@ -1,0 +1,7 @@
+export $DOTFILES=$HOME/.dotfiles
+
+# Paths
+source $DOTFILES/lib/paths
+
+# Aliases
+source $DOTFILES/lib/aliases

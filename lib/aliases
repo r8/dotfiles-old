@@ -1,0 +1,8 @@
+if [[ -d $HOME/.aliases ]]; then
+  # Load local aliases
+  source $HOME/.aliases
+fi
+
+# Run mc in B&W-mode to play nicely with Solarized
+alias mc='mc -b'
+
