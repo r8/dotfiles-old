@@ -1,4 +1,4 @@
-if [[ -d $HOME/.aliases ]]; then
+if [[ -f $HOME/.aliases ]]; then
   # Load local aliases
   source $HOME/.aliases
 fi
