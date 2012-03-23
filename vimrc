@@ -7,7 +7,6 @@ call pathogen#infect()
 call pathogen#helptags()
 
 " Main settings
-" -------------
 set number                     " Show line numbers
 set showmode                   " Show curent mode
 set showcmd                    " Show incomplete cmds
