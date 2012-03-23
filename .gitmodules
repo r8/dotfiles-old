@@ -4,3 +4,6 @@
 [submodule "vim/bundle/altercation-vim-colors-solarized"]
 	path = vim/bundle/altercation-vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/bundle/nathanaelkane-vim-indent-guides"]
+	path = vim/bundle/nathanaelkane-vim-indent-guides
+	url = git://github.com/nathanaelkane/vim-indent-guides.git

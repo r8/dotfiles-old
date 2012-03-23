@@ -50,6 +50,6 @@ filetype indent on
 set linebreak                  " Wrap lines at convenient points
 
 " Load plugins settings
-for f in split(glob('~/.vim/vim.d/*'), '\n')
+for f in split(glob('~/.vim/vim.d/*.vim'), '\n')
     exe 'source' f
 endfor
