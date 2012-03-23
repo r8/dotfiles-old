@@ -10,7 +10,10 @@ call pathogen#helptags()
 " -------------
 set number                     " Show line numbers
 set showmode                   " Show curent mode
+set wildmenu                   " Command-line completion
+set laststatus=2               " Always show status line
 set cursorline                 " Highlight current line
+set hlsearch                   " Highlight searches
 
 " Solarized
 syntax enable                  " Use syntax highlight
@@ -21,8 +24,11 @@ colorscheme solarized          " Use Solarized colorscheme
 " Display tabs and trailing spaces visually
 set list listchars=tab:>-
 
-" Do not create swaps and backups
-set noswapfile
-set nobackup
-set nowb
+" Save backups, swaps and undo in one place
+set backupdir=~/.vim/tmp
+set directory=~/.vim/tmp
+if exists("&undodir")
+    set undodir=~/.vim/tmp
+endif
+
 
