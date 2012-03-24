@@ -7,3 +7,6 @@
 [submodule "vim/bundle/nathanaelkane-vim-indent-guides"]
 	path = vim/bundle/nathanaelkane-vim-indent-guides
 	url = git://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "vim/bundle/scrooloose-nerdtree"]
+	path = vim/bundle/scrooloose-nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
