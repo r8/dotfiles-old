@@ -8,3 +8,6 @@ source $DOTFILES/lib/paths
 
 # Aliases
 source $DOTFILES/lib/aliases
+
+# Set svn editor
+export SVN_EDITOR=vim
