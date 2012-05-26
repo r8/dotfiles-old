@@ -51,7 +51,8 @@ set linebreak                  " Wrap lines at convenient points
 " Key mapping
 let mapleader = ","
 
-map <leader>N :set number!<cr>  " Toggle line numbers on ,N
+map <leader>N :set number!<cr> " Toggle line numbers on ,N
+map <leader>P :set paste!<cr>  " Toggle paste on ,P
 
 " Load plugins settings
 for f in split(glob('~/.vim/vim.d/*.vim'), '\n')
