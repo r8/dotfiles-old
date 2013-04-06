@@ -1,5 +1,4 @@
 #!/bin/bash
-
 mv ~/dotfiles ~/.dotfiles
 
 git submodule init
