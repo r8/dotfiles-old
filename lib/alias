@@ -1,6 +1,6 @@
-if [[ -f $HOME/.aliases ]]; then
+if [[ -f $HOME/.alias ]]; then
   # Load local aliases
-  source $HOME/.aliases
+  source $HOME/.alias
 fi
 
 # Run mc in B&W-mode to play nicely with Solarized
