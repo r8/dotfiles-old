@@ -15,3 +15,9 @@ ln -s ~/.dotfiles/zshrc ~/.zshrc
 rm ~/.vimrc
 ln -s ~/.dotfiles/vimrc ~/.vimrc
 
+# Deploy config files
+for D in ~/.dotfiles/config/*
+do
+  rm -rf ~/.config/$(basename "$D")
+  ln -s $D ~/.config/$(basename "$D")
+done
