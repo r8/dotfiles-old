@@ -27,3 +27,9 @@ do
   rm -rf ~/.config/$(basename "$D")
   ln -s $D ~/.config/$(basename "$D")
 done
+
+if [ -f /etc/bashrc ]; then
+  . /etc/bashrc
+fi
+
+source deploy/openbox
