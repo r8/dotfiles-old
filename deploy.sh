@@ -4,16 +4,22 @@ mv ~/dotfiles ~/.dotfiles
 git submodule init
 git submodule update
 
-ln -s ~/.dotfiles/vim ~/.vim
-
-rm ~/.bashrc
+# Set up bash
+rm -f ~/.bashrc
 ln -s ~/.dotfiles/bashrc ~/.bashrc
 
-rm ~/.zshrc
+# Set up zsh
+rm -f ~/.zshrc
 ln -s ~/.dotfiles/zshrc ~/.zshrc
 
-rm ~/.vimrc
+# Set up vim
+ln -s ~/.dotfiles/vim ~/.vim
+rm -f ~/.vimrc
 ln -s ~/.dotfiles/vimrc ~/.vimrc
+
+# Create local configs
+touch ~/.alias
+touch ~/.path
 
 # Deploy config files
 for D in ~/.dotfiles/config/*
