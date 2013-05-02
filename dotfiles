@@ -2,7 +2,7 @@ export TERM=xterm-256color
 export DOTFILES=$HOME/.dotfiles
 
 # Paths
-source $DOTFILES/lib/paths
+source $DOTFILES/lib/path
 
 # Aliases
 source $DOTFILES/lib/alias
