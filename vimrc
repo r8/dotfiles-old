@@ -8,7 +8,6 @@ call pathogen#helptags()
 
 " Main settings
 set number                     " Show line numbers
-set showmode                   " Show curent mode
 set showcmd                    " Show incomplete cmds
 set wildmenu                   " Command-line completion
 set laststatus=2               " Always show status line
@@ -18,6 +17,7 @@ set incsearch                  " Incremental search
 set history=100                " Command line history
 set visualbell                 " No sounds
 set autoread                   " Reload files changed outside vim
+set noshowmode                 " Don't show mode 
 
 " Solarized
 syntax enable                  " Use syntax highlight
