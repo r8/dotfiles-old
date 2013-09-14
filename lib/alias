@@ -7,7 +7,8 @@ fi
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # mc
-alias mcbw='mc -a -b'
+alias mcab='mc -a -b'
+alias mca='mc -a'
 
 # Vagrant
 alias vup='vagrant up --no-provision'
