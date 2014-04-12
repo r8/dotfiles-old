@@ -49,10 +49,10 @@ filetype indent on
 set linebreak                  " Wrap lines at convenient points
 
 " Key mapping
-let mapleader = ","
+let mapleader = " "
 
-map <leader>N :set number!<cr> " Toggle line numbers on ,N
-map <leader>P :set paste!<cr>  " Toggle paste on ,P
+map <leader>n :set number!<cr> " Toggle line numbers on <space>n
+map <leader>p :set paste!<cr>  " Toggle paste on <space>p
 
 " Load plugins settings
 for f in split(glob('~/.vim/vim.d/*.vim'), '\n')
