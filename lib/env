@@ -1,0 +1,4 @@
+if [[ -f $HOME/.env ]]; then
+  # Load local environment variables
+  source $HOME/.env
+fi
