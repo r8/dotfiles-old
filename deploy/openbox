@@ -3,7 +3,7 @@
 if [ -f ~/.config/openbox/autostart ]; then
   if ! grep -qx 'fbxkb &' ~/.config/openbox/autostart
   then
-    echo 'setxkbmap -layout "us,ru,ua" -option "grp:ctrl_shift_toggle" &' >> ~/.config/openbox/autostart
+    echo 'setxkbmap -layout "us,ru,ua" -option "grp:caps_toggle" &' >> ~/.config/openbox/autostart
     echo 'fbxkb &' >> ~/.config/openbox/autostart
   fi
 fi
