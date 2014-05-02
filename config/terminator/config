@@ -8,7 +8,7 @@
     use_system_font = False
     cursor_color = "#eee8d5"
     foreground_color = "#eee8d5"
-    font = Monospace 16
+    font = DejaVu Sans Mono for Powerline 16
     background_color = "#002b36"
 [layouts]
   [[default]]
