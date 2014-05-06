@@ -17,6 +17,10 @@ ln -s ~/.dotfiles/vim ~/.vim
 rm -f ~/.vimrc
 ln -s ~/.dotfiles/vimrc ~/.vimrc
 
+# Set up git 
+rm -f ~/.gitconfig
+ln -s ~/.dotfiles/gitconfig ~/.gitconfig
+
 # Create local configs
 touch ~/.alias
 touch ~/.path

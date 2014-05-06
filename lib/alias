@@ -3,9 +3,6 @@ if [[ -f $HOME/.alias ]]; then
   source $HOME/.alias
 fi
 
-# Better git log
-git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-
 # Git users
 alias gur8='git config user.name "Sergey Storchay" && git config user.email "r8@r8.com.ua"'
 alias gumm='git config user.name "Sergey Storchay" && git config user.email "magemaven@gmail.com"'
