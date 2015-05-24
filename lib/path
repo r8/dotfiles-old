@@ -1,5 +1,8 @@
 # Custom bin folders
-export PATH=$PATH:$HOME/bin:$DOTFILES/bin
+export PATH=$PATH:$HOME/.composer/vendor/bin
+
+# Create custom bin folders
+mkdir -p $HOME/.composer/vendor/bin
 
 if [[ -f $HOME/.path ]]; then
   # Load local paths
