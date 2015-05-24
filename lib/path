@@ -1,6 +1,3 @@
-# Common paths
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
-
 # Custom bin folders
 export PATH=$PATH:$HOME/bin:$DOTFILES/bin
 
