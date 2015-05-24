@@ -20,6 +20,8 @@ ln -s ~/.dotfiles/vimrc ~/.vimrc
 # Set up git 
 rm -f ~/.gitconfig
 ln -s ~/.dotfiles/gitconfig ~/.gitconfig
+rm -f ~/.gitignore_global
+ln -s ~/.dotfiles/.gitignore_global ~/.gitignore_global
 
 # Create local configs
 touch ~/.alias
