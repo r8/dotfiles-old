@@ -1,0 +1,13 @@
+/.idea
+
+# Sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+*.sublime-workspace
+*.sublime-project
+
+# sftp configuration file
+sftp-config.json
+
