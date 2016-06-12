@@ -1,3 +1,4 @@
+# IDEA
 /.idea
 
 # Sublime text
@@ -11,3 +12,6 @@
 # sftp configuration file
 sftp-config.json
 
+# Visual Studio Code
+/.vscode
+tsconfig.json
