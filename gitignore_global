@@ -1,5 +1,6 @@
 # IDEA
 /.idea
+/*.iml
 
 # Sublime text
 *.tmlanguage.cache
