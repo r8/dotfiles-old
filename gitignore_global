@@ -16,3 +16,6 @@ sftp-config.json
 # Visual Studio Code
 /.vscode
 tsconfig.json
+
+# NPM
+npm-debug.log
